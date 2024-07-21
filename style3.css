@@ -1,0 +1,80 @@
+body {
+    background-color: #ffcea5;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+    text-align: center; /* Align the heading in the center */
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.image {
+    max-width: calc(100%); /* Distribute images evenly */
+    height: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.image2 {
+    height: 350px;
+    width: 350px;
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px dotted black;
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.final-video {
+    display: flex;
+    align-items: center;
+    height: 550px;
+    margin-left: 500px;
+    margin-right: 700px;
+    margin-bottom: 50px;
+}
+
+.pp-left,
+.pp-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 550px;
+}
+
+.pp-left {
+    left: 0;
+}
+
+.pp-right {
+    right: 0;
+}
+
+.friend-image {
+  height: 500px;
+  width: auto;
+  margin-left: 600px;
+}

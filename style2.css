@@ -1,0 +1,426 @@
+h1 {
+    text-align: center; /* Align the heading in the center */
+}
+
+body {
+    background-color: #FFC0CB; /* Pink */
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+hr {
+    border-style: dashed;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #f67280;
+}
+
+p {
+    text-align: center;
+}
+
+.image-container {
+    width: 200px; /* Adjust the width of the container */
+    height: 200px; /* Adjust the height of the container */
+    overflow: hidden;
+    border-radius: 50%; /* Make the container circular */
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.text {
+    float: left;
+    margin-top: -150px;
+    margin-left: 150px;
+    margin-right: 400px;
+}
+
+.friend-image {
+    width: 100%;
+    height: 100%;
+}
+.friend-image:nth-child(1) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.image-container2 {
+    width: 200px; /* Adjust the width of the container */
+    height: 200px; /* Adjust the height of the container */
+    overflow: hidden;
+    border-radius: 50%; /* Make the container circular */
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.text2 {
+    float: right;
+    margin-top: -150px;
+    margin-right: 150px;
+    margin-left: 400px;
+}
+
+.friend-image2 {
+    height: 100%;
+    width: auto;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.friend-image2:nth-child(1) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.image {
+    max-width: calc(100%); /* Distribute images evenly */
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.image1 {
+    max-width: calc(100%); /* Distribute images evenly */
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.para {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.image-row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+    margin-left: 110px;
+    margin-right: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.image2 {
+    max-width: calc(100%); /* Distribute images evenly */
+    margin-top: -500px;
+    border-radius: 20%;
+    margin-right: 100px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+.image2:nth-child(1) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.image2:nth-child(2) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.image2:nth-child(3) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.image2:nth-child(4) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.image2:nth-child(5) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.image2:nth-child(6) {
+    animation: flip 5s ease-in-out infinite;
+}
+
+.para1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -450px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.image3 {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.para2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.image-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.image-container3 {
+    width: 500px; /* Adjust the width of the container */
+    height: 250px; /* Adjust the height of the container */
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.text3 {
+    float: right;
+    margin-top: -220px;
+    margin-right: 150px;
+    margin-left: 700px;
+}
+
+.horizontalrow {
+  border-style: dashed;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #f67280;
+  margin-top: 200px;
+  width: 100%;
+}
+
+.image-row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 200px;
+    height: 200px;
+    width: auto;
+}
+
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.image4:nth-child(1) {
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.image4:nth-child(2) {
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.image4:nth-child(3) {
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.image4 {
+    max-width: calc(100%); /* Distribute images evenly */
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.image3 {
+    max-width: calc(100%); /* Distribute images evenly */
+    height: 200px;
+    width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.para3 {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  animation:slide 40s linear infinite;
+}
+
+.slides img {
+  flex-shrink: 0;
+  height: 200px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.image4 {
+    max-width: calc(100%); /* Distribute images evenly */
+    height: 250px;
+    width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+/* Container for animated images */
+.animated-images-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Style for individual images */
+.animated-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Example: Scale animation */
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Applying different animations to images */
+.animated-image:nth-child(1) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.animated-image:nth-child(2) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.animated-image:nth-child(3) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.animated-image:nth-child(4) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.animated-image:nth-child(5) {
+    animation: scale 4s ease-in-out infinite;
+}
+
+.image-container4 {
+    width: 250px; /* Adjust the width of the container */
+    height: 250px; /* Adjust the height of the container */
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.friend-image4 {
+    height: 250px;
+    margin-left: 650px;
+    margin-top: 50px;
+    width: auto;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.friend-image5 {
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.image-row11 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.friend-image6 {
+    height: 250px;
+    margin-left: 550px;
+    margin-top: 50px;
+    width: auto;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
